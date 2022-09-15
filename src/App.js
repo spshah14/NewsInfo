@@ -23,7 +23,8 @@ function App() {
         />
         <Routes>
 
-          <Route path="/" element={<News setProgress={setProgress} key="general" categories="general" />} />
+          <Route path="/" element={<News setProgress={setProgress} key="newsinfo" categories="general" />} />
+          <Route path="/newsinfo" element={<News setProgress={setProgress} key="newsinfo" categories="general" />} />
           <Route path="/general" element={<News setProgress={setProgress} key="general" categories="general" />} />
           <Route path="/science" element={<News setProgress={setProgress} key="science" categories="science" />} />
           <Route path="/sports" element={<News setProgress={setProgress} key="sports" categories="sports" />} />
