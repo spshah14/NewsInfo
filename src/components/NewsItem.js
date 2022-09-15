@@ -8,7 +8,7 @@ export default function NewsItem(props) {
                 <div className="card mb-3 color" >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={imgUrl} className="img-fluid rounded-start" style={{ height: '100%' }} alt="News" />
+                            <img src={imgUrl} className="img-fluid rounded-start" alt="News" />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
