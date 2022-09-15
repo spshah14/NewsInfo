@@ -29,7 +29,7 @@ function App() {
           <Route path="/science" element={<News setProgress={setProgress} key="science" categories="science" />} />
           <Route path="/sports" element={<News setProgress={setProgress} key="sports" categories="sports" />} />
           <Route path="/business" element={<News setProgress={setProgress} key="business" categories="business" />} />
-          <Route path="/health" element={<News setProgress={setProgress} key="health" categories="health" />} />
+          {/* <Route path="/health" element={<News setProgress={setProgress} key="health" categories="health" />} /> */}
           <Route path="/entertainment" element={<News setProgress={setProgress} key="entertainment" categories="entertainment" />} />
           <Route path="/tech" element={<News setProgress={setProgress} key="tech" categories="tech" />} />
           <Route path="/politics" element={<News setProgress={setProgress} key="politics" categories="politics" />} />

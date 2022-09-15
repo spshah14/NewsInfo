@@ -19,7 +19,7 @@ export default function Navbar() {
                         <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
+                        {/* <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li> */}
                         <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/tech">Tech</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/politics">Politics</Link></li>
