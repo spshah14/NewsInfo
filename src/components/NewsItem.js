@@ -5,13 +5,13 @@ export default function NewsItem(props) {
     return (
         <div>
             <div className="container my-3">
-                <div className="card mb-3 color" >
-                    <div className="row g-0">
+                <div className="card mb-3" >
+                    <div className="row g-0" >
                         <div className="col-md-4">
-                            <img src={imgUrl} className="img-fluid rounded-start" alt="News" />
+                            <img src={imgUrl} className="img-fluid" alt="News" style={{ height: '200px', width: '100%', objectFit: "fill" }} />
                         </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
+                        <div className="col-md-8 cardcolor">
+                            <div className="card-body ">
                                 <h5 className="card-title">{title}</h5>
                                 {/* <p className="card-text">{description}</p> */}
                                 <p className="card-text">{snippet}</p>
